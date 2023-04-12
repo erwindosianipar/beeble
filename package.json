@@ -1,0 +1,19 @@
+{
+	"name": "nuxt-app",
+	"private": true,
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview",
+		"postinstall": "nuxt prepare"
+	},
+	"devDependencies": {
+		"@tailwindcss/typography": "^0.5.9",
+		"nuxt": "^3.3.3",
+		"tailwindcss": "^3.3.1"
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.12"
+	}
+}
